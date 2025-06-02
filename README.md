@@ -9,7 +9,6 @@ const RPC = require('d-js-rpc')
 const clientId = 'your_client_id';
 const client = new RPC.Client({ transport: 'ipc' });
 client.on('ready', () => {
-  console.log('Logged in as', client.application.name);
   console.log('Authed for user', client.user.username);
 
   client.setActivity({
