@@ -3,6 +3,8 @@
 This Discord RPC package allows you to set activity types in your Discord Rich Presence.
 Everything else works as normal.
 
+Install using `npm i d-js-rpc`
+
 ### __Simple__ Example using types:
 ```js
 const RPC = require('d-js-rpc')
