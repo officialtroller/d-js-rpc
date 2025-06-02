@@ -1,0 +1,32 @@
+{
+    "name": "d-js-rpc",
+    "version": "1.0.0",
+    "description": "A simple RPC client for Discord",
+    "keywords": [
+        "discord",
+        "rpc",
+        "rich presence",
+        "remote procedural call"
+    ],
+    "main": "src/index.js",
+    "author": "snek <me@gus.host>, official_troller",
+    "license": "MIT",
+    "homepage": "https://github.com/discordjs/RPC#readme",
+    "bugs": {
+        "url": "https://github.com/discordjs/RPC/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/officialtroller/d-js-rpc.git"
+    },
+    "dependencies": {
+        "node-fetch": "^2.6.1",
+        "ws": "^7.3.1"
+    },
+    "optionalDependencies": {
+        "register-scheme": "github:devsnek/node-register-scheme"
+    },
+    "devDependencies": {
+        "electron": "^7.1.9"
+    }
+}
