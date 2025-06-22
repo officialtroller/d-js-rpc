@@ -1,6 +1,6 @@
 {
     "name": "d-js-rpc",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "A simple RPC client for Discord",
     "keywords": [
         "discord",
