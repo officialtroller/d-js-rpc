@@ -20,3 +20,6 @@ client.on('ready', () => {
 
 client.login({ clientId });
 ```
+
+
+Simply use `npm i d-js-rpc` to install the package.
